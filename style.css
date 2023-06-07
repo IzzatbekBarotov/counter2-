@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+article {
+  text-align: center;
+}
+
+article > h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn_container button {
+  width: 200px;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  background: transparent;
+  border: 3px solid cyan;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn_container button:hover {
+  background-color: cyan;
+}
